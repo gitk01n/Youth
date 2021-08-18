@@ -33,7 +33,7 @@ jobs:
           node Youth_Read.js
         env:
           YOUTH_READ: ${{ secrets.YOUTH_READ }}
-          YOUTH_ATIME: ${{ secrets.YOUTH_TIME }}
+          YOUTH_TIME: ${{ secrets.YOUTH_TIME }}
 
       - name: '运行 【中青看点阅读二】'
         if: env.YOUTH_READ2
@@ -41,7 +41,7 @@ jobs:
           node Youth_Read.js
         env:
           YOUTH_READ: ${{ secrets.YOUTH_READ2 }}
-          YOUTH_ATIME: ${{ secrets.YOUTH_TIME }}
+          YOUTH_TIME: ${{ secrets.YOUTH_TIME }}
           
       - name: '运行 【中青看点阅读三】'
         if: env.YOUTH_READ3
@@ -49,7 +49,7 @@ jobs:
           node Youth_Read.js
         env:
           YOUTH_READ: ${{ secrets.YOUTH_READ3 }}
-          YOUTH_ATIME: ${{ secrets.YOUTH_TIME }}
+          YOUTH_TIME: ${{ secrets.YOUTH_TIME }}
           
       - name: '运行 【中青看点阅读四】'
         if: env.YOUTH_READ4
@@ -57,7 +57,7 @@ jobs:
           node Youth_Read.js
         env:
           YOUTH_READ: ${{ secrets.YOUTH_READ4 }}
-          YOUTH_ATIME: ${{ secrets.YOUTH_TIME }}
+          YOUTH_TIME: ${{ secrets.YOUTH_TIME }}
 
       - name: '运行 【中青看点阅读五】'
         if: env.YOUTH_READ5
@@ -65,4 +65,4 @@ jobs:
           node Youth_Read.js
         env:
           YOUTH_READ: ${{ secrets.YOUTH_READ5 }}
-          YOUTH_ATIME: ${{ secrets.YOUTH_TIME }}
+          YOUTH_TIME: ${{ secrets.YOUTH_TIME }}
